@@ -1,16 +1,20 @@
-﻿public enum ERank
+﻿namespace Blackjack
 {
-    Ace,
-    King,
-    Queen,
-    Jack,
-    Ten,
-    Nine,
-    Eight,
-    Seven,
-    Six,
-    Five,
-    Four,
-    Three,
-    Two
+    public enum ERank
+    {
+        Ace,
+        King,
+        Queen,
+        Jack,
+        Ten,
+        Nine,
+        Eight,
+        Seven,
+        Six,
+        Five,
+        Four,
+        Three,
+        Two
+    }
 }
+

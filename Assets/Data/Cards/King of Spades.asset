@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b25ff48a57505e74498b3115af72e168, type: 3}
-  m_Name: King of Hearts
+  m_Name: King of Spades
   m_EditorClassIdentifier: 
   _card:
     _suit: 2
