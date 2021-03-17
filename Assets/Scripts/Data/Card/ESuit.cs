@@ -1,7 +1,10 @@
-﻿public enum ESuit
+﻿namespace Blackjack
 {
-    Clubs,
-    Diamonds,
-    Hearts,
-    Spades
+    public enum ESuit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
 }
