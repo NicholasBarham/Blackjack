@@ -13,14 +13,13 @@ namespace Blackjack
         }
 
         [SerializeField] private ESuit _suit = ESuit.Clubs;
-        public ESuit Suit { get { return _suit; } }
+        public ESuit Suit => _suit;
 
         [SerializeField] private ERank _rank = ERank.Ace;
-        public ERank Rank { get { return _rank; } }
+        public ERank Rank => _rank;
 
         [SerializeField] private int[] _points = new int[0];
-
-        public int[] Points { get { return _points; } }
+        public int[] Points => _points;
     }
 }
 

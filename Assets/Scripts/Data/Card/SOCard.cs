@@ -6,12 +6,12 @@ namespace Blackjack
     public class SOCard : ScriptableObject
     {
         [SerializeField] private Card _card = null;
-        public Card Card { get { return _card; } }
+        public Card Card => _card;
 
         [SerializeField] private Sprite _frontImage = null;
-        public Sprite FrontImage { get { return _frontImage; } }
+        public Sprite FrontImage => _frontImage;
 
         [SerializeField] private Sprite _rearImage = null;
-        public Sprite RearImage { get { return _rearImage; } }
+        public Sprite RearImage => _rearImage;
     }
 }
