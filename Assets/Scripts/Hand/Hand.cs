@@ -6,7 +6,7 @@ namespace Blackjack
     public class Hand
     {
         private List<Card> _cards = new List<Card>();
-        public List<Card> Cards { get { return _cards; } }
+        public List<Card> Cards => _cards;
 
         private HandCalculator calculator = new HandCalculator();
 
